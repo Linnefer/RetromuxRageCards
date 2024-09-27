@@ -577,7 +577,7 @@ card field:
 card field:
 	type: text
 	name: healthtext
-	script: "WILL"
+	script: "WILLPOWER"
 	editable: false
 	show statistics: false
 
