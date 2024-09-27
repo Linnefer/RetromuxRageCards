@@ -8,6 +8,7 @@ choice:
 	choice: Metis
 	choice: Lupus
 	choice: Feline
+	choice: Ursine
 	choice: Cephalopod
 	choice: Other
 	line below: true
