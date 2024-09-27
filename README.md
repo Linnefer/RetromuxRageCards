@@ -7,6 +7,7 @@ September 2024
 R6
 * added Titleshader to deal with titles on lightly colored cards
 * Trait fix: Will -> Willpower
+* Ursine Breed
 
 R5
 * Alt-Name Line to make matching characters with Aliases or Deed Names on multiple cards easier.
