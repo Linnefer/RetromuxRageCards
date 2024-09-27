@@ -13,7 +13,7 @@ Number Format
 Sabbat-Card change: traits are Generation/Path/Willpower
 
 R4
-Different Fae-Court BG
+Fae-Court BGs: Unseelie & Shadow Court
 Technocracy BG
 Kinfolk "Auspiece"
 Correction of Mage Card: traits are Arete/Paradox/Willpower
@@ -27,7 +27,11 @@ R2
 Addition of missing icons for various factions
 
 R1
-Initial modified version
+Initial modified version, adding new cards using [the the templates provided by Self biased on Boardgamegeek](https://boardgamegeek.com/thread/2163791/rage-card-frame-update-and-rework) and changing them as required:
+* Mage
+* Vampire
+* Changeling
+
 
 __Rage MSE plugin help file__
 
