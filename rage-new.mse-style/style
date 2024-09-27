@@ -443,7 +443,7 @@ card style:
 		z index: 0
 		left: 30
 		top: { if card.layout == "creature" then 615 else if card.layout=="character" then 621 else 1200 }
-		width: { if card.layout=="character" then 118 else 118 }
+		width: 100
 		height: 28
 		visible: { card.iscreature=="true" }
 		alignment: left middle shrink-overflow
