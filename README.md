@@ -5,26 +5,30 @@ September 2024
 
 ## Revision History ##
 R6
-Titleshader
+* added Titleshader to deal with titles on lightly colored cards
+* Trait fix: Will -> Willpower
 
 R5
-Alt-Name Line
-Number Format
-Sabbat-Card change: traits are Generation/Path/Willpower
+* Alt-Name Line to make matching characters with Aliases or Deed Names on multiple cards easier.
+* Number Format updated to #XXX instead of XXX#
+* Sabbat-Card change: traits are Generation/Path/Willpower
 
 R4
-Fae-Court BGs: Unseelie & Shadow Court
-Technocracy BG
-Kinfolk "Auspiece"
-Correction of Mage Card: traits are Arete/Paradox/Willpower
-Correction of Vamopire Card: traits are Generation/Humanity/Willpower
-Initial Card Numbering
+* Fae-Court BGs: Unseelie & Shadow Court
+* Mage BGs: Technocracy
+* Kinfolk "Auspiece"
+* Correction of Mage Card: traits are Arete/Paradox/Willpower
+* Correction of Vamopire Card: traits are Generation/Humanity/Willpower
+* Initial Card Numbering
 
 R3
-Fulltext of alternate traits, automated trait-assignment via card type
+* Fulltext of alternate traits
+* automated trait-assignment via card type
+* REnaming of Health to Will
 
 R2
-Addition of missing icons for various factions
+* Addition of missing icons for various factions
+* Manual choice of alternate traits instead of Rage/Gnosis/Health
 
 R1
 Initial modified version, adding new cards using [the the templates provided by Self biased on Boardgamegeek](https://boardgamegeek.com/thread/2163791/rage-card-frame-update-and-rework) and changing them as required:
