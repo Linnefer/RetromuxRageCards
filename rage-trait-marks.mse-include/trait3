@@ -1,0 +1,65 @@
+# The choices for third column of character trait line (breed)
+# Included by a game file
+
+choice:
+choice:
+	name: Breed
+	choice: Homid
+	choice: Metis
+	choice: Lupus
+	choice: Feline
+	choice: Cephalopod
+	choice: Other
+	line below: true
+choice: Crinos
+choice: Battle
+	line below: true
+choice:
+	name: Kith
+	choice: Boggan
+	choice: Clurichaun
+	choice: Eshu
+	choice: Nocker
+	choice: Piskey
+	choice: Pooka
+	choice: Redcap
+	choice: Satyr
+	choice: Selkie
+	choice: Arcadian Sidhe
+	choice: Autumn Sidhe
+	choice: Sluagh
+	choice: Troll
+	line below: true
+choice:
+	name: Clan
+	choice: Ghoul
+	choice: Assamite
+	choice: Brujah
+	choice: Gangrel
+	choice: Cappadocian
+	choice: Giovanni
+	choice: Lasombra
+	choice: Malkavian
+	choice: Setite
+	choice: Nosferatu
+	choice: Ravnos
+	choice: Toreador
+	choice: Tremere
+	choice: Tzimisce
+	choice: Ventrue
+	choice: Baali
+	choice: Caitiff
+	choice: Panders
+	choice: Kiasyd
+	choice: Salubri
+	choice: Daughters of Cacophony
+	choice: Gargoyle
+	choice: True Brujah
+	line below: true
+choice: 
+	name: Essence
+	choice: Dynamic
+	choice: Pattern
+	choice: Primordial
+	choice: Questing
+	line below: true

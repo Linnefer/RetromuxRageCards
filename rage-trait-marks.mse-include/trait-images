@@ -1,0 +1,166 @@
+# Glyph allocation
+
+choice images:
+	Garou Black Furies:	/rage-trait-marks.mse-include/BlackFuries.gif
+	Garou Bone Gnawers:	/rage-trait-marks.mse-include/BoneGnawers.gif
+	Garou Children of Gaia:	/rage-trait-marks.mse-include/ChildrenofGaia.gif
+	Garou Fianna:		/rage-trait-marks.mse-include/Fianna.gif
+	Garou Get of Fenris:	/rage-trait-marks.mse-include/GetofFenris.gif
+	Garou Glass Walkers:	/rage-trait-marks.mse-include/GlassWalkers.gif
+	Garou Red Talons:	/rage-trait-marks.mse-include/RedTalons.gif
+	Garou Shadow Lords:	/rage-trait-marks.mse-include/ShadowLords.gif
+	Garou Silent Striders:	/rage-trait-marks.mse-include/SilentStriders.gif
+	Garou Silver Fangs:	/rage-trait-marks.mse-include/SilverFangs.gif
+	Garou Stargazers:	/rage-trait-marks.mse-include/StarGazers.gif
+	Garou Uktena:		/rage-trait-marks.mse-include/Uktena.gif
+	Garou Wendigo:		/rage-trait-marks.mse-include/Wendigo.gif
+	Garou Black Spiral Dancers:	/rage-trait-marks.mse-include/Blackspiraldancers.gif
+	Fera Ajaba:		/rage-trait-marks.mse-include/Ajaba.gif
+	Fera Ananasi:		/rage-trait-marks.mse-include/Ananasi.gif
+	Fera Bastet:		/rage-trait-marks.mse-include/Bastet.gif
+	Fera Corax:		/rage-trait-marks.mse-include/Corax.gif
+	Fera Gurahl:		/rage-trait-marks.mse-include/Gurahl.gif
+	Fera Kitsune:		/rage-trait-marks.mse-include/Kitsune.gif
+	Fera Mokole:		/rage-trait-marks.mse-include/Mokole.gif
+	Fera Nuwisha:		/rage-trait-marks.mse-include/Nuwisha.gif
+	Fera Ratkin:		/rage-trait-marks.mse-include/Ratkin.gif
+	Fera Rokea:		/rage-trait-marks.mse-include/Rokea.gif
+	Wyrm Abomination:	/rage-trait-marks.mse-include/Abomination.gif
+	Wyrm Bane:		/rage-trait-marks.mse-include/Banes.gif
+	Wyrm Cults:		/rage-trait-marks.mse-include/Cults.gif
+	Wyrm Pentex:		/rage-trait-marks.mse-include/Pentex.gif
+	Wyrm Unbound:		/rage-trait-marks.mse-include/Unbound.gif
+	Wyrm Vampire:		/rage-trait-marks.mse-include/Vampire.gif
+	Bastet Bagheera:	/rage-trait-marks.mse-include/Bagheera.gif
+	Bastet Balam:		/rage-trait-marks.mse-include/Balam.gif
+	Bastet Bubasti:		/rage-trait-marks.mse-include/Bubasti.gif
+	Bastet Khan:		/rage-trait-marks.mse-include/Khan.gif
+	Bastet Pumonca:		/rage-trait-marks.mse-include/Pumonca.gif
+	Bastet Qualmi:		/rage-trait-marks.mse-include/Qualmi.gif
+	Bastet Simba:		/rage-trait-marks.mse-include/Simba.gif
+	Bastet Swara:		/rage-trait-marks.mse-include/Swara.gif
+	Bastet Hellcat:		/rage-trait-marks.mse-include/Ceilican.gif
+	Auspice Ahroun:		/rage-trait-marks.mse-include/Ahroun.gif
+	Auspice Galliard:	/rage-trait-marks.mse-include/Galliard.gif
+	Auspice Philodox:	/rage-trait-marks.mse-include/Philodox.gif
+	Auspice Theurge:	/rage-trait-marks.mse-include/Theurge.gif
+	Auspice Ragabash:	/rage-trait-marks.mse-include/Ragabash.gif
+	Cults 7th Generation:	/rage-trait-marks.mse-include/7thgen.gif
+	Cults Chulorvian:	/rage-trait-marks.mse-include/Unbound.gif
+	Cults Walid Set:	/rage-trait-marks.mse-include/WalidSet.gif
+	Fomori Fomori, Iliad:	/rage-trait-marks.mse-include/Fomori.gif
+	Fomori Fomori, Odyssey:	/rage-trait-marks.mse-include/Fomori.gif
+	Executive:		/rage-trait-marks.mse-include/Executives.gif
+	Breed Homid:		/rage-trait-marks.mse-include/Homid.gif
+	Breed Metis:		/rage-trait-marks.mse-include/Metis.gif
+	Breed Lupus:		/rage-trait-marks.mse-include/Lupus.gif
+	Breed Feline:		/rage-trait-marks.mse-include/Feline.gif
+	Breed Cephalopod:	/rage-trait-marks.mse-include/Blackspiraldancers.gif
+	Breed Other:		/rage-trait-marks.mse-include/Lupus.gif
+	Crinos:			/rage-trait-marks.mse-include/Crinos.gif
+	Battle:			/rage-trait-marks.mse-include/Battleform.gif
+
+	Kith Boggan:		/rage-trait-marks.mse-include/boggan.gif
+	Kith Clurichaun:	/rage-trait-marks.mse-include/clurichaun.gif
+	Kith Eshu:		/rage-trait-marks.mse-include/eshu.gif
+	Kith Nocker:		/rage-trait-marks.mse-include/nocker.gif
+	Kith Piskey:		/rage-trait-marks.mse-include/piskey.gif
+	Kith Pooka:		/rage-trait-marks.mse-include/pooka.gif
+	Kith Redcap:		/rage-trait-marks.mse-include/redcap.gif
+	Kith Satyr:		/rage-trait-marks.mse-include/satyr.gif
+	Kith Selkie:		/rage-trait-marks.mse-include/selkie.gif
+	Kith Arcadian Sidhe:	/rage-trait-marks.mse-include/sidhearcadian.gif
+	Kith Autumn Sidhe:	/rage-trait-marks.mse-include/sidheautumn.gif
+	Kith Sluagh:		/rage-trait-marks.mse-include/sluagh.gif
+	Kith Troll:		/rage-trait-marks.mse-include/troll.gif
+
+	House Aesin:		/rage-trait-marks.mse-include/aesin.gif
+	House Ailil:		/rage-trait-marks.mse-include/ailil.gif
+	House Balor:		/rage-trait-marks.mse-include/balor.gif
+	House Beaumayn:		/rage-trait-marks.mse-include/beaumayn.gif
+	House Daireann:		/rage-trait-marks.mse-include/daireann.gif
+	House Danaan:		/rage-trait-marks.mse-include/danaan.gif
+	House Dougal:		/rage-trait-marks.mse-include/dougal.gif
+	House Eiluned:		/rage-trait-marks.mse-include/eiluned.gif
+	House Fiona:		/rage-trait-marks.mse-include/fiona.gif
+	House Gwydion:		/rage-trait-marks.mse-include/gwydion.gif
+	House Leanhaun:		/rage-trait-marks.mse-include/leanhaun.gif
+	House Liam:		/rage-trait-marks.mse-include/liam.gif
+	House Scathach:		/rage-trait-marks.mse-include/scathach.gif
+	House Varich:		/rage-trait-marks.mse-include/varich.gif
+
+	Vampire:		/rage-trait-marks.mse-include/Vampire.gif
+	Vampire Anarch:		/rage-trait-marks.mse-include/Vampire.gif
+	Vampire Camarilla:	/rage-trait-marks.mse-include/Vampire.gif
+	Vampire	Independent Clan:	/rage-trait-marks.mse-include/Vampire.gif
+	Vampire Sabbat:		/rage-trait-marks.mse-include/Vampire.gif
+	Changeling:		/rage-trait-marks.mse-include/Changeling.gif
+
+	Clan Ghoul:		/rage-trait-marks.mse-include/ghoul.gif
+	Clan Assamite:		/rage-trait-marks.mse-include/assamite.gif
+	Clan Brujah:		/rage-trait-marks.mse-include/brujah.gif
+	Clan Gangrel:		/rage-trait-marks.mse-include/gangrel.gif
+	Clan Cappadocian:	/rage-trait-marks.mse-include/cappadocian.gif
+	Clan Giovanni:		/rage-trait-marks.mse-include/giovanni.gif
+	Clan Lasombra:		/rage-trait-marks.mse-include/lasombra.gif
+	Clan Malkavian:		/rage-trait-marks.mse-include/malkavian.gif
+	Clan Setite:		/rage-trait-marks.mse-include/setite.gif
+	Clan Nosferatu:		/rage-trait-marks.mse-include/nosferatu.gif
+	Clan Ravnos:		/rage-trait-marks.mse-include/ravnos.gif
+	Clan Toreador:		/rage-trait-marks.mse-include/toreador.gif
+	Clan Tremere:		/rage-trait-marks.mse-include/tremere.gif
+	Clan Tzimisce:		/rage-trait-marks.mse-include/tzimisce.gif
+	Clan Ventrue:		/rage-trait-marks.mse-include/ventrue.gif
+	Clan Baali:		/rage-trait-marks.mse-include/baali.gif
+	Clan Caitiff:		/rage-trait-marks.mse-include/caitiff.gif
+	Clan Panders:		/rage-trait-marks.mse-include/panders.gif
+	Clan Kiasyd:		/rage-trait-marks.mse-include/kiasyd.gif
+	Clan Salubri:		/rage-trait-marks.mse-include/salubri.gif
+	Clan Gargoyle:		/rage-trait-marks.mse-include/gargoyle.gif
+	Clan Daughters of Cacophony:	/rage-trait-marks.mse-include/daughters.gif
+	clan True Brujah:	/rage-trait-marks.mse-include/truebrujah.gif
+
+	Mage Tradition:		/rage-trait-marks.mse-include/mage.gif
+	Mage Nephandi:		/rage-trait-marks.mse-include/nephandi.gif
+	Mage Marauder:		/rage-trait-marks.mse-include/marauder.gif
+	Mage Technocratic Union:	/rage-trait-marks.mse-include/technocraticunion.gif
+	Mage Disparate Alliance:/rage-trait-marks.mse-include/mage.gif
+	Mage Orphan:		/rage-trait-marks.mse-include/orphan.gif
+
+	Convention NWO: 		/rage-trait-marks.mse-include/nwo.gif
+	Convention Syndicate: 		/rage-trait-marks.mse-include/syndicate.gif
+	Convention Iteration X: 	/rage-trait-marks.mse-include/iterationX.gif
+	Convention Void Engineer: 	/rage-trait-marks.mse-include/voidengineers.gif
+	Convention Progenitor: 		/rage-trait-marks.mse-include/progenitor.gif
+
+	Disparate Alliance Ahl-i-Batin: /rage-trait-marks.mse-include/ahlibatin.gif
+	Disparate Alliance Orphan: 	/rage-trait-marks.mse-include/orphan.gif
+	Disparate Alliance Hollow One: 	/rage-trait-marks.mse-include/hollowones.gif
+	Disparate Alliance Bata'a: 	/rage-trait-marks.mse-include/bataa.gif
+	Disparate Alliance Hippolytae: 	/rage-trait-marks.mse-include/hippolytae.gif
+	Disparate Alliance Kopa Loei: 	/rage-trait-marks.mse-include/kopaloei.gif
+	Disparate Alliance Ngoma: 	/rage-trait-marks.mse-include/ngoma.gif
+	Disparate Alliance Solificati: 	/rage-trait-marks.mse-include/solificati.gif
+	Disparate Alliance Solomonite: 	/rage-trait-marks.mse-include/progenitor.gif
+	Disparate Alliance Taftâni: 	/rage-trait-marks.mse-include/taftani.gif
+	Disparate Alliance Templar: 	/rage-trait-marks.mse-include/templar.gif
+	Disparate Alliance Wu Lung: 	/rage-trait-marks.mse-include/wulung.gif
+
+	Tradition Ahl-i-Batin:		/rage-trait-marks.mse-include/ahlibatin.gif
+	Tradition Akashayana: 		/rage-trait-marks.mse-include/akashayana.gif
+	Tradition Celestial Chorus: 	/rage-trait-marks.mse-include/celestialchorus.gif
+	Tradition Cult of Extacy: 	/rage-trait-marks.mse-include/cox.gif
+	Tradition Dreamspeaker: 	/rage-trait-marks.mse-include/dreamspeakers.gif
+	Tradition Etherite: 		/rage-trait-marks.mse-include/etherite.gif
+	Tradition Euthanatoi: 		/rage-trait-marks.mse-include/euthanatoi.gif
+	Tradition Hollow One: 		/rage-trait-marks.mse-include/hollowones.gif
+	Tradition Order of Hermes:	/rage-trait-marks.mse-include/orderofhermes.gif
+	Tradition Verbena: 		/rage-trait-marks.mse-include/verbena.gif
+	Tradition Virtual Adept: 	/rage-trait-marks.mse-include/virtualadepts.gif
+
+	Orphan Orphan:			/rage-trait-marks.mse-include/orphan.gif
+
+	Essence Dynamic: /rage-trait-marks.mse-include/dynamic.gif
+	Essence Pattern: /rage-trait-marks.mse-include/pattern.gif
+	Essence Primordial: /rage-trait-marks.mse-include/primordial.gif
+	Essence Questing: /rage-trait-marks.mse-include/questing.gif

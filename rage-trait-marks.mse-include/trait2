@@ -1,0 +1,112 @@
+# The choices for second column of character trait line (subfaction/auspice/Bastet tribe)
+# Included by a game file
+
+choice:
+choice:
+	name: Auspice
+	choice: Kinfolk
+	choice: Ahroun
+	choice: Galliard
+	choice: Philodox
+	choice: Theurge
+	choice: Ragabash
+	line below: true
+choice:
+	name: Bastet
+	choice: Bagheera
+	choice: Balam
+	choice: Bubasti
+	choice: Khan
+	choice: Pumonca
+	choice: Qualmi
+	choice: Simba
+	choice: Swara
+	choice: Hellcat
+	line below: true
+choice:
+	name: Kitsune
+	choice: Eji
+	choice: Doshi
+	choice: Gukutsushin
+	choice: Kataribe
+choice:
+	name: Gurahl
+	choice: Arcas
+	choice: Uzmati
+	choice: Kojubat
+	choice: Kieh
+	choice: Rishi
+choice:
+	name: Rokea
+	choice: Brightwater
+	choice: Dimwater
+	choice: Darkwater
+	line below: true
+choice:
+	name: Cults
+	choice: 7th Generation
+	choice: Apocalypse
+	choice: Chulorvian
+	choice: Walid Set
+	line below: true
+choice:
+	name: Fomori
+	choice: Fomori, Iliad
+	choice: Fomori, Odyssey
+	line below: true
+choice: Executive
+	line below: true
+choice:
+	name: House
+	choice: Aesin
+	choice: Ailil
+	choice: Balor
+	choice: Beaumayn
+	choice: Daireann
+	choice: Danaan
+	choice: Dougal
+	choice: Eiluned
+	choice: Fiona
+	choice: Gwydion
+	choice: Leanhaun
+	choice: Liam
+	choice: Scathach
+	choice: Varich
+	line below: true
+choice:
+	name: Convention
+	choice: Iteration X
+	choice: NWO
+	choice: Progenitor
+	choice: Syndicate
+	choice: Void Engineer
+choice:
+	name: Disparate Alliance
+	choice: Ahl-i-Batin
+	choice: Bata'a
+	choice: Hippolytae
+	choice: Hollow One
+	choice: Kopa Loei
+	choice: Ngoma
+	choice: Orphan
+	choice: Solificati
+	choice: Solomonite
+	choice: Taftâni
+	choice: Templar
+	choice: Wu Lung
+choice:
+	name: Orphan
+	choice: Orphan
+choice:
+	name: Tradition
+	choice: Ahl-i-Batin
+	choice: Akashayana
+	choice: Celestial Chorus
+	choice: Cult of Extacy
+	choice: Dreamspeaker
+	choice: Etherite
+	choice: Euthanatoi
+	choice: Hollow One
+	choice: Order of Hermes
+	choice: Verbena
+	choice: Virtual Adept
